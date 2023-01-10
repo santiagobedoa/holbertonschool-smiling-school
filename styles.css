@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "holberton_school-icon";
+  src: url("./icons/fonts/holberton_school-icon.eot?sq4eq4");
+  src: url("./icons/fonts/holberton_school-icon.eot?sq4eq4#iefix")
+      format("embedded-opentype"),
+    url("./icons/fonts/holberton_school-icon.ttf?sq4eq4") format("truetype"),
+    url("./icons/fonts/holberton_school-icon.woff?sq4eq4") format("woff"),
+    url("./icons/fonts/holberton_school-icon.svg?sq4eq4#holberton_school-icon")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "Source sans pro", "Spin Cycle", "holberton_school-icon",
+    "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  color: white;
+}
+
+:root {
+  --purple: #c271ff;
+}
+
+/* ---------- HOMEPAGE ----------  */
+/*  HERO SECTION */
+.hero-section {
+  background-image: url("./images/pic_1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar-brand img {
+  height: 2rem;
+}
+
+.navbar-brand img:first-child {
+  margin-right: 1rem;
+}
+
+.navbar a {
+  color: #fff !important;
+}
+
+.navbar a:hover {
+  opacity: 0.9 !important;
+}
+
+.hero-title {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 5rem auto -1rem;
+}
+
+.btn {
+  background-color: var(--purple) !important;
+}
+
+.small-title {
+  margin-top: 10rem;
+}
+
+.small-title span {
+  color: var(--purple);
+}
+
+.testimonials {
+  margin-top: 5rem;
+}
+
+.testimonials img {
+  width: 125px;
+  height: 125px;
+}
