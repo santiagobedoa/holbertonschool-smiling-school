@@ -26,6 +26,7 @@ body {
 
 :root {
   --purple: #c271ff;
+  --section-padding: 90px 0px;
 }
 
 /* ---------- HOMEPAGE ----------  */
@@ -88,4 +89,20 @@ body {
 .testimonials img {
   width: 125px;
   height: 125px;
+}
+
+/*  QUOTES SECTION */
+.quotes-section {
+  background-color: var(--purple);
+  padding: var(--section-padding);
+}
+
+.quotes-section img {
+  width: 125px;
+  height: 125px;
+}
+
+.carousel-item {
+  padding-right: 100px;
+  padding-left: 100px;
 }
