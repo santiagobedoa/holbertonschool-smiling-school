@@ -28,6 +28,7 @@ body {
   --purple: #c271ff;
   --section-padding: 90px 0px;
   --gray: #a9a9a9;
+  --dark-blue: #071629;
 }
 
 /* ---------- HOMEPAGE ----------  */
@@ -113,7 +114,7 @@ body {
   padding: var(--section-padding);
 }
 
-.tutorials-section span {
+.section-title span {
   color: var(--purple);
 }
 
@@ -164,4 +165,24 @@ body {
   transform: translateY(-50%);
   margin-right: 5rem;
   margin-left: 5rem;
+}
+
+/* MEMBERSHIP SECTION */
+.membership-section {
+  background-color: var(--dark-blue);
+  padding: var(--section-padding);
+}
+
+.membership-cards-container {
+  margin-top: 5rem;
+}
+
+.card-membership {
+  background-color: var(--dark-blue) !important;
+  margin-bottom: 3rem;
+}
+
+.card-membership img {
+  width: 70px;
+  height: 70px;
 }
