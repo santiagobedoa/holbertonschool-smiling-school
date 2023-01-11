@@ -131,6 +131,7 @@ body {
 
 .navbar a {
   color: #fff !important;
+  margin-right: 1rem;
 }
 
 .navbar a:hover {
@@ -299,4 +300,18 @@ footer > div:last-child {
   font-size: 30px;
   color: white;
   margin-right: 1rem;
+}
+
+/* PRICING PAGE */
+
+/* HERO SECTION */
+.hero-section-pricing {
+  background-image: url("./images/pic_2.jpg");
+}
+
+/* NAVBAR */
+.navbar a.active {
+  color: var(--purple) !important;
+  border-bottom: 2px solid white;
+  padding-bottom: 4px;
 }
