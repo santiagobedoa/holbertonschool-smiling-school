@@ -334,3 +334,16 @@ table p {
 table tbody tr:not(:last-child) {
   border-bottom: 0.5px solid var(--gray);
 }
+
+/* FAQ SECTION */
+.faq-section {
+  padding: var(--section-padding);
+}
+
+.faq-section h2 {
+  font-size: 3.5rem;
+}
+
+.faq-section .container p {
+  color: #07162980;
+}
