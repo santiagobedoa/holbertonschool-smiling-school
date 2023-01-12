@@ -93,12 +93,6 @@
   content: "\e914";
 }
 
-html,
-body {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 * {
   font-family: "Source sans pro", "Spin Cycle", "holberton_school-icon",
     "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
@@ -110,6 +104,13 @@ body {
   --section-padding: 90px 0px;
   --gray: #a9a9a9;
   --dark-blue: #071629;
+  --green: #82d24f;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 /* ---------- HOMEPAGE ----------  */
@@ -275,10 +276,6 @@ footer {
   padding: var(--section-padding);
 }
 
-/* footer .logo-container { */
-/*   float: none; */
-/* } */
-
 .logo-container img {
   height: 2rem;
 }
@@ -305,7 +302,7 @@ footer > div:last-child {
 /* PRICING PAGE */
 
 /* HERO SECTION */
-.hero-section-pricing {
+main.pricing-page .hero-section {
   background-image: url("./images/pic_2.jpg");
 }
 
@@ -316,7 +313,7 @@ footer > div:last-child {
   padding-bottom: 4px;
 }
 
-.hero-section-pricing button {
+main.pricing-page button {
   width: 170px;
 }
 
@@ -327,4 +324,13 @@ footer > div:last-child {
 .price-month {
   font-size: 1.2rem;
   color: var(--gray);
+}
+
+table p {
+  color: var(--green);
+  font-size: 28px;
+}
+
+table tbody tr:not(:last-child) {
+  border-bottom: 0.5px solid var(--gray);
 }
