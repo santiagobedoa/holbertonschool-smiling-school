@@ -105,6 +105,7 @@
   --gray: #a9a9a9;
   --dark-blue: #071629;
   --green: #82d24f;
+  --pale-purple-color: #d194fd;
 }
 
 html,
@@ -362,4 +363,31 @@ main.courses-page .hero-section {
 
 .courses-title span {
   color: var(--purple);
+}
+
+/* FILTER SECTION */
+.filter-section {
+  background-color: var(--purple);
+}
+
+.filter-section input {
+  background-color: var(--pale-purple-color);
+}
+
+.filter-section input::placeholder {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.filter-section input:focus {
+  background-color: var(--pale-purple-color);
+}
+
+.filter-section input,
+.filter-section button {
+  width: 100%;
+}
+
+.dropdown-item:hover {
+  color: var(--purple) !important;
 }
