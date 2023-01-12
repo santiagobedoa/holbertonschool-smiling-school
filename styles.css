@@ -347,3 +347,19 @@ table tbody tr:not(:last-child) {
 .faq-section .container p {
   color: #07162980;
 }
+
+/* COURSES PAGE */
+
+/* HERO SECTION */
+main.courses-page .hero-section {
+  background-image: url("./images/pic_3.jpg");
+}
+
+.courses-title {
+  font-size: 3.5rem;
+  font-family: Coiny !important;
+}
+
+.courses-title span {
+  color: var(--purple);
+}
