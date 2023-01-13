@@ -400,3 +400,34 @@ main.courses-page .hero-section {
 .filter-item button {
   background-color: var(--pale-purple-color) !important;
 }
+
+/* RESPONSIVE */
+
+@media (max-width: 567px) {
+  /* FOOTER */
+  .logo-container {
+    text-align: center;
+  }
+
+  /* HOMEPAGE */
+  .play-image {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 20px;
+    left: 37%;
+  }
+
+  /* COURSES */
+  main.courses-page .images-reviews {
+    margin-right: 2rem;
+  }
+
+  main.courses-page .play-image {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 80px;
+    left: 40%;
+  }
+}
