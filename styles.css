@@ -376,7 +376,6 @@ main.courses-page .hero-section {
 
 .filter-section input::placeholder {
   color: #fff;
-  opacity: 0.7;
 }
 
 .filter-section input:focus {
@@ -386,8 +385,18 @@ main.courses-page .hero-section {
 .filter-section input,
 .filter-section button {
   width: 100%;
+  border-bottom: 0.8px solid #fff !important;
+  border-radius: 0 !important;
 }
 
 .dropdown-item:hover {
   color: var(--purple) !important;
+}
+
+.dropdown-menu {
+  border-radius: 0 !important;
+}
+
+.filter-item button {
+  background-color: var(--pale-purple-color) !important;
 }
